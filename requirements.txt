@@ -1,0 +1,15 @@
+# Database
+mysql-connector-python
+
+# EDA & Data Processing
+numpy
+pandas
+matplotlib
+seaborn
+
+# Machine Learning & Deep Learning
+scikit-learn
+tensorflow
+
+# Web Deployment
+Flask
