@@ -1,7 +1,5 @@
 # Virtual Environment
-env/
-venv/
-.venv/
+.env
 
 # Python caching
 __pycache__/
@@ -18,3 +16,6 @@ models/*
 # OS generated files
 Thumbs.db
 .DS_Store
+
+# IDE 
+.vscode/
