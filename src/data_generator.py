@@ -79,8 +79,8 @@ monthly_charges[rand_idx2] = np.nan
 
 df = pd.DataFrame({
     "customer_id" : customer_id,
+    "tenure" : tenure,
     "monthly_charges" : monthly_charges,
-    "tenure" : tenure, 
     "contract" : contract,
     "tech_support" : tech_support, 
     "churn" : churn
