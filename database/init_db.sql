@@ -4,12 +4,12 @@ CREATE TABLE customers (
     customer_id VARCHAR(20) PRIMARY KEY,
     tenure INT,
     monthly_charges NUMERIC(10, 2),
-    plan VARCHAR(50),
+    contract VARCHAR(50),
     tech_support VARCHAR(3),
     churn VARCHAR(3)
 );
 
-INSERT INTO customers (customer_id, tenure, monthly_charges, plan, tech_support, churn)
+INSERT INTO customers (customer_id, tenure, monthly_charges, contract, tech_support, churn)
 VALUES 
     ('CUST-1001', 12, 55.50, 'Month-to-month', 'Yes', 'No'),
     ('CUST-1002', 2, 70.00, 'Month-to-month', 'No', 'Yes'),
