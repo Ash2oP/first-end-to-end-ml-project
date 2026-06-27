@@ -12,6 +12,7 @@ __pycache__/
 data/raw/*
 data/processed/*
 models/*
+*.keras
 
 # OS generated files
 Thumbs.db
