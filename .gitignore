@@ -20,3 +20,6 @@ Thumbs.db
 
 # IDE 
 .vscode/
+
+# Our Champion Model
+!models/champ_model.pkl
