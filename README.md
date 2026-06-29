@@ -4,10 +4,6 @@
 > Logistic Regression pipeline trained on 6 customer features.
 > Served via a Flask web application.
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1.8.0-orange)
-![Flask](https://img.shields.io/badge/Flask-3.1.3-lightgrey)
-![joblib](https://img.shields.io/badge/joblib-1.5.3-blue)
-
 ---
 
 ## Demo
@@ -69,11 +65,11 @@ root/
 ├── models/
 │   └── champ_model.pkl     # Saved pipeline
 ├── notebooks/
-│   ├── 01_sandbox_eda.ipynb
-│   ├── 02_data_generator.ipynb
-│   └── 03_big_data_eda.ipynb
+│   ├── 01_sandbox_eda.ipynb    # EDA on sandbox data
+│   ├── 02_data_generator.ipynb  # Data Generator Scrpit analysis
+│   └── 03_big_data_eda.ipynb   # Big DATA EDA
 ├── src/
-│   ├── data_generator.py
+│   ├── data_generator.py   # Correlational Data Generator
 │   └── train.py            # Training script
 ├── requirements.txt
 ├── .env
